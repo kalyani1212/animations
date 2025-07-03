@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: rgb(201, 114, 28);
+        }
+        .face{
+            position: relative;
+            height: 300px;
+            width:300px;
+            background-color: rgb(255, 225, 0);
+            border-radius: 100%;
+            margin:100px auto;
+        }
+        .face:before{
+            content:'';
+            position: absolute;
+            top:180px;
+            width:150px;
+            height: 70px;
+            background: #b57700;
+            left:77px;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            transition: 0.5s;
+        }
+        .face:hover::before{
+            content:'';
+            position: absolute;
+            top:180px;
+            width:150px;
+            height: 20px;
+            background: #b57700;
+            left:77px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        .eyes{
+            position: relative;
+            top:0;
+            display: flex;
+        }
+        .eyes .eye{
+            position: relative;
+            width:70px;
+            height:70px;
+            background: #fff;
+            display: block;
+            margin: 0 15px;
+            top:60px;
+            left:50px;
+            border-radius: 50%;
+        }
+        .eyes .eye::before{
+            content:'';
+            position: absolute;
+            top:50%;
+            left:25px;
+            transform: translate((-50%,-50%));
+            width:30px;
+            height: 30px;
+            background: black;
+            border-radius: 50%;
+            left:20px;
+            top:20px;
+        }
+        .eyes .eye:hover::before{
+            content:'';
+            position: absolute;
+            top:50%;
+            left:0;
+            transform: translate((-50%,-50%));
+            width:30px;
+            height: 30px;
+            background: black;
+            border-radius: 50%;
+            left:30px;
+            top:30px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="face">
+        <div class="eyes">
+            <div class="eye"></div>
+            <div class="eye"></div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('body')
+        .addEventListener('mousemove',eyeball);
+        function eyeball(){
+            var eye=document.querySelectorAll('.eye');
+            eye.forEach(function(eye){
+            let x=(eye.getBoundingClientrect()
+            .left)+(eye.clientWidth/2);
+            let y=(eye.getBoundingClientrect()
+            .left)+(eye.clientWidth/2);
+            let radian = Math.atan2(event.pageX-x,event.pageY-y);
+            let rot = (radian * (180/Math.PI) * -1)+0;
+            eye.style.transform = "rotate("+ rot+"deg)";
+
+            })
+        }
+    </script>
+</body>
+</html>

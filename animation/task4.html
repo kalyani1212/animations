@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Project</title>
+    <style>
+        /* Smooth animated background */
+        body {
+            background: linear-gradient(-45deg, #d73f44, #fad0c4, #da4319, #ffdde1);
+            background-size: 400% 400%;
+            animation: gradientBG 8s ease infinite;
+            text-align: center;
+            padding: 50px;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Styled container */
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin: 50px auto;
+            width: 50%;
+            max-width: 400px;
+        }
+
+        /* Submit Button with Glow Effect */
+        .submit-btn {
+            background: linear-gradient(90deg, #e3193b, #ba0b54);
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 50px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(255, 120, 150, 0.5);
+            transition: all 0.4s ease;
+        }
+
+        .submit-btn:hover {
+            box-shadow: 0 0 20px rgba(255, 120, 150, 0.8);
+            background: linear-gradient(90deg, #c43f76, #e42948);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Project Submission</h2>
+        <p>Click below to submit your project.</p>
+        <button class="submit-btn">Submit</button>
+    </div>
+</body>
+</html>

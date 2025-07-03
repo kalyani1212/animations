@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* background-color: antiquewhite;
+            #798084 #dc9b57*/
+            height: 100vh;
+            /* background:linear-gradient(to top,#7980847b,#dc9c577b),url("https://cdn.pixabay.com/photo/2024/11/08/14/31/lighthouse-9183463_1280.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; */
+            animation: dummy 9s infinite;
+        }
+        @keyframes dummy{
+            0%{background: linear-gradient(to top,#7980846f,#dc9c577b),url("https://cdn.pixabay.com/photo/2024/11/08/14/31/lighthouse-9183463_1280.jpg"); background-repeat: no-repeat;
+            background-size: cover;}
+            50%{background: url("https://cdn.pixabay.com/photo/2025/02/07/13/45/leopard-9390105_1280.jpg") no-repeat center/cover;}
+            100%{background: url("https://cdn.pixabay.com/photo/2025/02/26/09/58/bird-9432600_1280.jpg") no-repeat center/cover;}
+        }
+        .img1 img{
+            height: 100vh;
+            width: 100vw;
+            /* filter: opacity(0.5); */
+            
+            filter: brightness(80%);
+            /* filter: grayscale(40%); */
+            /* filter: contrast(100%),; */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="img1">
+        <img src="https://images.pexels.com/photos/26853147/pexels-photo-26853147/free-photo-of-clouds-in-sky-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+    </div>
+</body>
+</html>

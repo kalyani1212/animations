@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue; 
+}
+nav li{
+    font-size: 20px;
+    
+}
+i{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+.fa-cart-shopping{
+    position: absolute;
+    right: 120px;
+}
+.fa-user{
+    position: absolute;
+    right:200px;
+}
+img{
+    position:absolute;
+    right:130px;
+    top:100px;
+}
+h3{
+    position: absolute;
+    top: 150px;
+    left:150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+p{
+    position: absolute;
+    top:180px;
+    left:150px;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.span1{
+    position: absolute;
+    font-size: 23px;
+    top:330px;
+    left:150px;
+    color: aliceblue;
+    
+}
+.span2{
+    position: absolute;
+    font-size: 18px;
+    top:333px;
+    left:250px;
+    font-family: 'Courier New', Courier, monospace;
+    /* color: antiquewhite; */
+}
+button{
+    position: absolute;
+    font-size: 20px;
+    top:400px;
+    left:150px;
+    padding: 10px;
+    width:160px;
+    background-color: rgb(217, 5, 5);
+    color: aliceblue;
+    border-radius: 8px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.dots i{
+    position: absolute;
+    font-size: 30px;
+    top:720px;
+    left:600px;
+    color:rgb(217, 5, 5) ;
+    
+}
+.dots1 i{
+    position: absolute;
+    font-size: 30px;
+    top:720px;
+    left:590px;
+    color: gray;
+    
+    
+}
+.dots2 i{
+    position: absolute;
+    font-size: 30px;
+    top:720px;
+    left:610px;
+    color: gray;
+
+    
+}
+.container{
+    position: absolute;
+    top:900px;
+    left:520px;
+
+}
+.container p{
+    font-size: 10px;
+    position: absolute;
+    left: 40px;
+}
+.container img{
+  position: absolute;
+  height: 320px;
+  width:220px;
+  left: 20px;
+  margin-top: 95px;
+  
+}
+.container .span1{
+    position: absolute;
+    margin-top: 160px;
+    left:50px
+}
+.container .span2{
+    position: absolute;
+    margin-top: 160px;
+    left:150px
+}

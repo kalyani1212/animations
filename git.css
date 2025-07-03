@@ -1,0 +1,239 @@
+body{
+    background-color: #0d1117;
+/* box-sizing: border-box; */
+}
+img{
+   
+    display: block;
+    margin: 0px auto;
+    width: 36%;
+    height: 83%;
+    margin: -214px 945px;
+
+    /* display: block;
+    margin: 0px auto;
+    width: 37%;
+    height: 83%;
+    margin: -218px 704px; */
+}
+.login{
+    /* height: 100vh; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* svg{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: white; */
+    
+img{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+ h1{
+    text-align: center;
+    color: #f0f6fc;
+    margin: 20px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+    font-weight: 120;
+ }
+
+
+
+    form {
+        border: 1px solid #3d444d;
+        width: 300px;
+        height: 236px;       
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(21, 27, 35);
+    }
+
+
+/* 
+form{
+border: 1px solid #3d444d;
+width: 400px;
+height: 297px;
+margin: auto;
+padding: 18px;
+border-radius: 10px;
+background-color:rgb(21, 27, 35);
+} */
+label{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size :14px;
+    font-weight: 400;
+
+}
+input{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 7px 0px;
+    /* padding: 12px 15px;
+    margin: 17px 0px; */
+    border-radius: 8px;
+    border: 1px solid #3d444d;
+    background-color: black;
+}
+input:focus{
+    caret-color: white;
+        border: 1px solid #2d87ef;
+        outline: 1px solid #0969da;
+     }
+button:focus{
+    border: 1px solid #2d87ef;
+    outline: 1px solid #0969da;
+}
+
+a{
+    color: #4493f8;
+    margin-left: 82px;
+    text-decoration: none;
+    font-size :14px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+button{
+    width: 100%;
+    background-color: #238636;
+    color: white;
+    padding: 7px 16px ;
+    border-radius: 8px;
+    margin: 10px 0px;  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size :18px;
+    font-weight: 600;
+
+}
+
+.fm2{
+    height: 100px;
+    margin-top: 30px;
+    background-color: #0d1117;
+    padding: 17px;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size :18px;
+    font-weight: 400;
+    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.a:hover{
+    text-decoration: underline;
+}
+.a{
+    margin: 0;
+    padding: 20px;
+    
+}
+    span{
+        color: #4493f8;
+        font-size :18px;
+        font-weight: 400;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    span:hover{
+        text-decoration: underline;
+    }
+    /* .footer{
+        text-decoration: none;
+        display: block;
+    }
+    .footer:hover{
+        text-decoration: underline;
+    } */
+    ol li{
+        display: inline;
+        list-style: none;
+        padding: 10px 10px;
+        margin: 10px 36px 50px 0px;
+        text-align: center;
+        font-size: 13px;
+    }
+}
+    /* --------------------------------------------------------------------------------------- */
+
+.Signin{
+    height: 100vh;
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+ }
+     form{
+        /* background: url(https://github.githubassets.com/assets/mona_glow@2x-f8d271ee4b80.webp) no-repeat center center; */
+        border: 1px solid white;
+        background-color: white;
+        width: 662px;
+        height: 645px;
+        border-radius: 10px;
+        padding: 30px 110px;
+        font-family: "Mona Sans", Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        margin: 150px auto;
+     }
+     img{ 
+        display: block;
+        margin: 0px auto;
+        width: 110px;
+        height: 110px;
+        margin-top: -86px;
+     }
+     label{
+        /* padding-top: 50px; */
+        font-family :"Mona Sans", Arial, Helvetica, sans-serif; 
+     }
+     input{
+        border: 1px solid #a5b5c7d1;
+        width: 100%;
+        padding: 9.6px ;
+        margin: 10px 0px;
+        border-radius: 6px;
+        font-size:15px;
+     }
+     input:focus{
+        border: 1px solid #2d87ef;
+        outline: 1px solid #0969da;
+     }
+     h6{
+        color: #57606a;
+        font-size: 12px;
+        font-weight: lighter;
+        padding: 15px 0px;
+     }
+     button{
+        color: white;
+        background-color: black;
+        width: 100%;
+        padding: 13px;
+        border-radius: 6px;
+        font-size: 20px;
+     }
+     h2{
+        padding: 25px 0px;
+        letter-spacing: normal;
+     }
+     a{
+        color: #0969da;
+        letter-spacing: 0.4px;
+     }
+}
+
+
+    
+
+

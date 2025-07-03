@@ -1,0 +1,135 @@
+body{
+    height: 120vh;
+    
+    /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0cf2c109-3af1-4a9d-87d7-aecfac5fe881/web/IN-en-20250217-TRIFECTA-perspective_c3376e06-9aff-4657-aafb-91256a597b7c_large.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background:linear-gradient(rgba(15, 14, 14, 0.447),rgba(15, 14, 14, 0.493)),url("https://assets.nflxext.com/ffe/siteui/vlv3/0cf2c109-3af1-4a9d-87d7-aecfac5fe881/web/IN-en-20250217-TRIFECTA-perspective_c3376e06-9aff-4657-aafb-91256a597b7c_large.jpg"); 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.netflix form{
+    /* padding-top: 30px; */
+    margin-bottom: 50px;
+     margin-top: 30px; 
+    margin-left: 300px;
+    margin-right: 300px;
+    display: block;
+    margin: auto; 
+    height: 700px;
+    width: 450px;
+    /* border-radius: 20px; */
+    background: linear-gradient(rgba(15, 14, 14, 0.894),rgba(15, 14, 14, 0.708));
+}
+.netflix h1{
+    color: white;
+    padding-top: 50px;
+    margin-top: 60px;
+    margin-left: 70px;
+    
+}
+.netflix input{
+    margin-top: 30px;
+    margin-left: 70px;
+    height: 55px;
+    border-radius: 6px;
+    width:320px;
+    background: linear-gradient(rgba(15, 14, 14, 0.894),rgba(15, 14, 14, 0.708));
+    border: 1px solid grey;
+
+}
+.netflix input:hover{
+    border: 2px solid white;
+}
+.netflix .pass{
+    margin-top:16px;
+    margin-bottom: 16px;
+    
+    
+}
+.netflix button{
+    margin-left: 70px;
+    height: 43px;
+    width:320px;
+    border-radius: 6px;
+    background: rgb(229, 9, 20);
+    border: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.netflix input{
+    padding-left: 10px;
+}
+.netflix h5{
+    margin-left: 220px;
+    font-size: 16px;
+    color:beige;
+    margin-bottom: 16px;
+}
+.netflix .btn1{
+    margin-left: 70px;
+    height: 43px;
+    width:320px;
+    border-radius: 6px;
+    background-color: rgba(218, 196, 196, 0.262);
+    margin-bottom: 19px;
+    
+}
+.netflix a{
+    margin-left:180px;
+    color: aliceblue;
+    font-size: 16px;
+}
+.netflix .check{
+    height: 15px;
+    width: 15px;
+}
+.netflix span{
+    color: aliceblue;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 35px;
+   
+}
+
+
+
+.netflix2{
+    background-color: black;
+    height: 150vh;
+    /* height: 700px;
+    width: 450px;
+    
+} */
+}
+.netflix2 form{
+    height: 580px;
+    width: 480px;
+    background-color:whitesmoke;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.netflix2 .h{
+    margin-left: 40px;
+    padding-top: 40px;
+}
+.netflix2 p{
+    margin-top: 30px;
+    margin-left:40px ;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.netflix2 button{
+    border: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 22px;
+    margin-bottom: 30px;
+}

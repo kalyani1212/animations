@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .demo{
+            height:100px;
+            width:100px;
+            border: 2px solid black;
+            animation: common 10s;
+        }
+        @keyframes common{
+            to{transform: translate(200px);background-color: blueviolet;border-radius: 10px;}
+        }
+        #item1{
+            animation-timing-function: ease;
+        }
+        #item2{
+            animation-timing-function: ease-in;
+        }
+        #item3{
+            animation-timing-function: ease-out;
+        }
+        #item4{
+            animation-timing-function:ease-in-out ;
+        }
+        #item5{
+            animation-timing-function: linear;
+            animation-iteration-count: 10;
+        }
+        .waterdrop{
+            margin-top: 50px;
+            height: 80px;
+            width: 80px;
+            border:2px solid black;
+            border-radius: 0% 50% 50%  50%;
+            background-color: #8ab4f87c;
+            transform: rotate(45deg);
+            margin-left: 50px;
+            
+            
+
+
+        }
+    </style>
+</head>
+<body>
+    <div id="item1" class="demo">ease</div>
+    <div id="item2" class="demo">ease-in</div>
+    <div id="item3" class="demo">ease-out</div>
+    <div id="item4" class="demo">ease-in-out</div>
+    <div id="item5" class="demo">linear</div>
+    <div class="waterdrop"></div>
+</body>
+</html>

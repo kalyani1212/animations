@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+div{
+    height: 50vh;
+    background-color: rgba(69, 69, 184, 0.228);
+    animation: Bl_ue 3s 5s;
+}
+@keyframes Bl_ue{
+    20%{background-color: rgba(0, 0, 255, 0.352);}
+    50%{background-color: rgba(0, 0, 255, 0.596);}
+    100%{background-color: blue;}
+}
+section{
+    height: 50vh;
+    background-color:rgba(172, 255, 47, 0.164);
+    animation: dummy 3s 5s;
+}
+@keyframes dummy{
+    1%{ width:10%;background-color:rgba(172, 255, 47, 0.297);border-radius: 50%;}
+    20%{background-color:rgba(172, 255, 47, 0.523);width:30%; }
+    30%{background-color: black;width: 50%;}
+    50%{background-color:rgba(172, 255, 47, 0.662);}
+    70%{background-color: brown;width: 70%;}
+    100%{background-color: greenyellow;}
+}

@@ -1,0 +1,244 @@
+/* span{
+    display: block;
+    width: 100%;
+    border-bottom: 1.6px solid #dddfe2;
+} */
+ 
+
+ body{
+    margin:0;
+    padding: 0;
+      
+
+ }
+ .amazon #para1{
+    font-weight: 200;
+    font-family:''Courier New', Courier, monospace';
+    font-size: small;
+ } 
+ .amazon form{
+    background-color: white;
+    border: 1px solid lightgray;
+    width:320px;
+    margin: 40px auto;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-bottom: 26px;
+    padding-right: 18px;
+    border-radius: 8px;
+    margin-top: 10px;
+ }
+.amazon h1{
+    font-weight: 400;
+    font-size: 28px;
+    padding-bottom: 4px;
+    /* line-height: 36px; */
+    margin: -7px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-bottom: 10px;
+
+ }
+ 
+ .amazon #para2{
+    width: 100%;
+ }
+ .amazon input{
+    /* font-weight: 400; */
+    height: 28px;
+    width: 310px;
+    border: 1px solid rgba(136, 133, 133, 0.891);
+    background-color: var(--__dChyWxpC1PxTMXs, #fff);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(15, 17, 17, .15) inset;
+    background-color: var(--__dChyWxpC1PxTMXs, #fff);
+    margin: 2px 2px;
+
+}
+.amazon #name{
+    margin-bottom: 10px;
+}
+
+   * .amazon .img2{
+      height:18px;
+      border-radius: 50%;
+      background-color:#1196ab
+   
+   } 
+
+.amazon .btn1{
+
+    width:100%;
+    font-weight: 400;
+    border-radius:20px;
+    font-family: inherit;
+    padding: 8px 8px;
+    background-color: #ebe347;
+    border: 2px solid white;
+    
+ }
+ .amazon .btn1:hover{
+   background-color: #c4bc23ae;
+   
+ }
+ .amazon .btn1:focus{
+   outline: 2px solid #1196ab;
+ }
+ #num{
+   margin-top: 7px;
+   width: 247px;
+   margin-left: 1px;
+ }
+ .amazon input:hover{
+   margin: 0;
+   border-color: white;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 4px;
+ }
+  
+ .amazon input:focus{
+   outline: 2px solid #1196ab;
+ }
+ .img1{
+   width: 14%;
+   margin:auto;
+ }
+ .amazon .anchor1{
+     color:#1196ab;
+     font-size:13px ;
+     text-decoration: none;
+ }
+ .amazon .anchor2{
+   color:#1196ab;
+   font-size:13px ;
+   
+}
+.amazon .anchor1:hover{
+   color: rgba(165, 42, 42, 0.841);
+}
+.amazon .anchor2:hover{
+   color: rgba(165, 42, 42, 0.79);
+}
+.amazon #country{
+   height: 28px;
+   background-color: rgb(240, 238, 238);
+   border-radius: 4px ;
+}
+.amazon #country:hover{
+   background-color: rgb(214, 213, 213);
+}
+
+
+
+
+
+.img3{
+   width: 14%;
+   margin:auto;
+   
+ }
+ .amazon1 form{
+   background-color: white;
+   border: 1px solid lightgray;
+   width:348px;
+   height:340px;
+   margin: 10px auto;
+   padding-top: 20px;
+   padding-left: 18px;
+   box-sizing: border-box;
+   border-radius: 10px;
+ }
+ .amazon1 .h1{
+   padding: 20px 26px !important;
+ }
+ .amazon1 .in1{
+   width: 90%;
+   /* padding-right: 10px;
+   padding-right: 10px; */
+   height: 31px;
+   padding: 3px 7px;
+   line-height: normal;
+   border: 1px solid rgba(67, 65, 65, 0.354);
+    background-color: var(--__dChyWxpC1PxTMXs, #88848446);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(15, 17, 17, .15) inset;
+    background-color: var(--__dChyWxpC1PxTMXs, #fff);
+    margin: 2px 2px;
+    border: 2px solid white;
+    
+   
+
+ }
+ .amazon1 button{
+   border-radius: 20px;
+   background-color: #ebe347;
+   width:95%;
+   height: 31px;
+   padding: 3px 7px;
+   line-height: normal;
+   margin: 10px 4px;
+   border: 2px solid white;
+ }
+ .amazon1 button:hover{
+   outline: 2px solid #1196ab;
+ }
+ .amazon1 .in1:focus{
+   outline: 2px solid #1196ab;
+ }
+ .amazon1 .pa1{
+   font-weight: 200px;
+    font-size: small;
+    
+ }
+ .amazon1 .an1{
+   color: #1196ab;
+ }
+ .amazon1 .an1:hover{
+   color:rgba(165, 42, 42, 0.856);
+ }
+ .amazon1 .a-expander-prompt {
+   word-wrap: break-word;
+   border: 2px solid white;
+   border-radius: 4px;
+   color: #1196ab;
+}
+.amazon1 .a-expander-prompt:hover{
+   content: "forgot your pasword?";
+   color: brown;
+   text-decoration: underline;
+   outline: 2px solid #1196ab;
+   
+
+
+
+}
+/* .amazon1 .a-icon-collapse {
+   transform: rotate(-135deg);
+   -webkit-transform: rotate(-135deg);
+   margin-top: -1px;
+} */
+.amazon1 .a-expander-prompt:focus{
+   outline: 2px solid #1196ab;
+ }
+ .amazon1 #auth-fpp-link-bottom{
+   color: #1196ab;
+
+ }
+ .amazon1 #auth-fpp-link-bottom:hover{
+   color: rgba(165, 42, 42, 0.871);
+ }
+ .amazon1 .new{
+  margin-left:580px;
+ }
+ #create{
+  width:348px;
+  height: 31px;
+  border-radius: 8px;
+  background-color:none ;
+  margin-left:460px;
+  margin-bottom: 100px;
+ }

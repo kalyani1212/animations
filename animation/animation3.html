@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  background: #111115;
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heart {
+   margin-left: 550px;
+   margin-top: 200px;
+  font-size: 6em;
+  position:fixed;
+}
+
+.heartbeat {
+  
+  animation: beat 2s linear infinite;
+}
+
+ .heartecho {
+   
+  padding-bottom:300px;
+  animation: echo 2s linear infinite;
+} 
+
+@keyframes beat{
+0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(0.9);
+  }
+  21% {
+    transform: scale(1.1) skew(0.004);
+  }
+  28% {
+    transform: scale(1) skew(0.008);
+  }
+  100% {
+    transform: scale(1) skew(0)
+  }
+}
+
+@keyframes echo {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  14% {
+    opacity: 0.4;
+    transform: scale(0.8);
+  }
+  51% {
+    opacity: 0.4;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="heart">
+    <div class="heartbeat">❤️</div>
+    <div class="heartecho">❤️</div>
+   
+    
+    </div>
+</body>
+</html>

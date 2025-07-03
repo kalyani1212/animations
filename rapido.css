@@ -1,0 +1,67 @@
+.container1{
+    background-color: #4688ae;
+    height: 340px;
+    width: 500px;
+    margin-top: 60px;
+    
+}
+.rapido form{
+    margin-left:390px;
+}
+
+input{
+    width:350px;
+    height:40px;
+    margin:5px;
+    margin-left: 60px;
+    font-size: large;
+    color: rgb(158, 157, 157);
+}
+.container2{
+    background-color: #4688ae;
+    height: 110px;
+    width: 500px;
+    margin-top: 10px;
+    
+}
+img{
+    height: 60px;
+    width: 60%;
+    margin-top: 20px;
+}
+.down{
+    margin-top: 20px;
+}
+#swcontainer{
+     height: 500px;
+    width:500px; 
+    /* background-color:#4688ae ; */
+    margin-top: 100px;
+}
+.rapido1 form{
+    margin-left: 390px;
+}
+
+.c1{
+    height: 480px;
+    width: 500px;
+    background-color:#4688ae ;
+
+}
+#swcontainer img{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 50%;
+
+}
+.para{
+    width: 70%;
+}
+#checkbox{
+    height: 20px;
+    width: 20px;
+    
+}
+.c1 input{
+  height:30px;
+}
